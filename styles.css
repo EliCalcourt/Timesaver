@@ -1,0 +1,56 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.summary-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.summary {
+    font-size: 1.2em;
+    color: #555555;
+}
+
+.summary p {
+    margin: 10px 0;
+}
+
+strong {
+    color: #333333;
+}
+
+#total-time,
+#total-uids {
+    color: #007acc;
+    font-weight: bold;
+}
