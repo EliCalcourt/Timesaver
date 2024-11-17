@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.2">
+    <title>Topup Dispute Script Performance</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Adjust this if necessary -->
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Space between cards */
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .summary-card {
+            width: 250px; /* Smaller card width */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+        }
+
+        .summary-card h1 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .summary {
+            font-size: 1em;
+        }
+
+        /* Style for the last card to make it full-width below the row of cards */
+        .last-card {
+            flex-basis: 100%;
+            text-align: center;
+            margin-top: 20px; /* Additional space above the last card */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Row of 3 cards -->
+        <div class="summary-card">
+            <h1>Performance Summary - Writeoff</h1>
+            <div class="summary">
+                <p><strong>UIDs Processed:</strong> <span id="total-uids-Writeoff">58</span></p>
+                <p><strong>Money Saved:</strong> <span id="total-savings-Writeoff">£32.85</span></p>
+            </div>
+        </div>
+
+        <div class="summary-card">
+            <h1>Performance Summary - Cardremove</h1>
+            <div class="summary">
+                <p><strong>UIDs Processed:</strong> <span id="total-uids-Cardremove">58</span></p>
+                <p><strong>Money Saved:</strong> <span id="total-savings-Cardremove">£11.09</span></p>
+            </div>
+        </div>
+
+        <div class="summary-card">
+            <h1>Performance Summary - ACH_revoke</h1>
+            <div class="summary">
+                <p><strong>UIDs Processed:</strong> <span id="total-uids-ACH_revoke">58</span></p>
+                <p><strong>Money Saved:</strong> <span id="total-savings-ACH_revoke">£7.4</span></p>
+            </div>
+        </div>
+
+        <!-- Last card placed below the row -->
+        <div class="summary-card last-card">
+            <h1>Total Money Saved</h1>
+            <div class="summary">
+                <p><strong>Total Money Saved:</strong> <span id="total-money-saved">£51.33</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
