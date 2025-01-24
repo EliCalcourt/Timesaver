@@ -1,3 +1,4 @@
+Total UIDs Processed,Time saved by running the script,Run DateTime
 UID,Time saved by running the script,Run DateTime
 Total UIDs Processed,Time saved by running the script,Run DateTime
 UID,Time saved by running the script,Run DateTime
@@ -320,3 +321,4 @@ yes,00:40:00,2025-01-22 18:12:11
 1142,01:20:00,2025-01-24 15:23:28
 1095,01:22:30,2025-01-24 15:25:23
 1076,01:25:00,2025-01-24 15:28:32
+1,00:02:30,2025-01-24 14:17:05
